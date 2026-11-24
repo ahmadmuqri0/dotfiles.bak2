@@ -54,6 +54,10 @@ radius = 8.0
 [calendar]
 enabled = true
 
+[calendar.account.personal_google]
+name = "Ahmad Muqri"
+type = "google"
+
 [location]
 auto_locate = true
 
@@ -113,6 +117,9 @@ auto_sync = true
 session_placement = "floating"
 session_position = "center"
 transparency_mode = "glass"
+
+[shell.screenshot]
+directory = "/home/muqri/Pictures/Screenshots"
 
 [theme]
 builtin = "Catppuccin"
