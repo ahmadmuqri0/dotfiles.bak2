@@ -1,0 +1,7 @@
+{
+  "shadcn namespace import": {
+    "prefix": "imns",
+    "body": "import * as $1 from \"#lib/components/ui/$2/index.ts\";$0",
+    "description": "import * as X from a shadcn component"
+  }
+}
