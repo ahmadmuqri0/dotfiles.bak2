@@ -77,4 +77,13 @@
       "ctrl-o": "vim::TemporaryNormal",
     },
   },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "shift-enter": [
+        "terminal::SendText",
+        "\u001b\r"
+      ]
+    }
+  },
 ]
