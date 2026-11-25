@@ -26,7 +26,7 @@ vim.pack.add({
   -- LSP
   { src = gh('neovim/nvim-lspconfig') },
   -- Util
-  { src = gh('stevearc/oil.nvim') },
+  -- { src = gh('stevearc/oil.nvim') },
 })
 
 require('artemis.plugins.ui')

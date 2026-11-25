@@ -41,6 +41,7 @@ require('snacks').setup({
     },
   },
   words = { enabled = true },
+explorer = { enabled = true},
   lazygit = {
     enabled = true,
     configure = true, -- auto-sets nvim-remote preset & syncs theme
